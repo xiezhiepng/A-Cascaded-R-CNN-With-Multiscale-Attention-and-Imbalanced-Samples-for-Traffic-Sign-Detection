@@ -40,13 +40,22 @@ python data_augment.py
 
 ### Run
 train:
-  CUDA_VISIBLE_DEVICES=2,3 python tools/test.py configs/GTSDB/3_cascade_rcnn_r50_fpn_1x.py --gpus 2
+```
+CUDA_VISIBLE_DEVICES=2,3 python tools/test.py configs/GTSDB/3_cascade_rcnn_r50_fpn_1x.py --gpus 2
+```
+  
 test:
-  CUDA_VISIBLE_DEVICES=2,3 python tools/test.py configs/GTSDB/3_cascade_rcnn_r50_fpn_1x.py work_dirs/BestResult/stage_3/epoch_10.pth  --gpus 2 --out results.pkl --eval bbox
+```
+CUDA_VISIBLE_DEVICES=2,3 python tools/test.py configs/GTSDB/3_cascade_rcnn_r50_fpn_1x.py work_dirs/BestResult/stage_3/epoch_10.pth  --gpus 2 --out results.pkl --eval bbox
+```
+  
 demo:
+```
   python demo/detect.py
   python demo/detect_lisa.py
   python demo/detect_cctsdb.py
-  
+```
+
+
 This repo is currently maintained by Zhipeng Xie (https://github.com/xiezhiepng).
 
