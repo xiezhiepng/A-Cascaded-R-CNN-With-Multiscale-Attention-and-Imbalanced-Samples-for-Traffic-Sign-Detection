@@ -1,8 +1,8 @@
 
 # A Cascaded R-CNN With Multiscale Attention and Imbalanced Samples for Traffic Sign Detection
 Traffic sign detection, convolutional neural network, attention, object detection, Multiscale:
-![](readme/fig2.png)
-> [**Objects as Points**](https://ieeexplore.ieee.org/abstract/document/8986614)     
+![](readme/test.png)
+> [**Traffic Sign Detection**](https://ieeexplore.ieee.org/abstract/document/8986614)     
 
 ## Abstract 
 
